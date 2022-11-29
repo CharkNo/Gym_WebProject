@@ -13,10 +13,12 @@ body {
     margin-left: auto;
 }
 nav {
-    display: table;
-    position: center;
-    width: 80%;
-    height: 70px;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    height: 172px;
+    width: 50%;
     font-size: x-large;
 	color: #080808;
 }
@@ -28,7 +30,8 @@ a {
 	border-radius: 10px;
 }
 .header {
-    padding: 70px;
+    height: 172px;
+    padding: 20px;
     text-align: center;
     background: #1D1D1D;
     color: white;
