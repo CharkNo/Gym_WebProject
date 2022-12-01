@@ -13,7 +13,20 @@
     color:white;
 }
 
+<<<<<<< Updated upstream
 body
 {
     background-color: #696969;
+=======
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.white-font-list {
+    color: white;
+    float: center;
+    
+>>>>>>> Stashed changes
 }
