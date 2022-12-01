@@ -1,3 +1,4 @@
+/* HEAD */
 .big_words_one
 {
     color:white;
@@ -13,11 +14,105 @@
     color:white;
 }
 
-<<<<<<< Updated upstream
+/* Updated upstream */
 body
 {
     background-color: #696969;
-=======
+}
+
+
+body {
+    background: #5A5A5A;
+	background-size: cover;
+	font-size: 1.2em;
+	font-family: din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+.logo{
+    position: center;
+    height: 70px;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav {
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    height: 172px;
+    width: 50%;
+    font-size: x-large;
+	color: #080808;
+}
+a {
+    color: white;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.header {
+    height: 172px;
+    padding: 20px;
+    text-align: center;
+    background: #1D1D1D;
+    color: white;
+}
+.Big-Text {
+    text-align: center;
+    font-size: x-large;
+}
+.container {
+    display: block;
+    text-align: left;
+    font-size: x-large;
+    padding: 50px;
+}
+
+.white-font {
+    color: white;
+}
+strong {
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px 7px white;
+}
+
+p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+footer{
+	border: 1px solid black;
+	color: #837EB1;
+	background-color: #000;
+    
+}
+img {
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.img1 { height: 400px;}
+
+.imgcolumn{
+    color: black;
+    float: left;
+    width: 40%;
+    padding: 50px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  color: white;
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -28,5 +123,4 @@ body
     color: white;
     float: center;
     
->>>>>>> Stashed changes
 }
