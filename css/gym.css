@@ -40,6 +40,13 @@ a {
     text-align: center;
     font-size: x-large;
 }
+.container {
+    display: block;
+    text-align: left;
+    font-size: x-large;
+    padding: 50px;
+}
+
 .white-font {
     color: white;
 }
@@ -62,8 +69,19 @@ footer{
 }
 img {
     display: block;
+    float: center;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
+}
+
+.img1 { height: 400px;}
+
+.imgcolumn{
+    color: black;
+    float: left;
+    width: 40%;
+    padding: 50px;
 }
 /* Create two equal columns that floats next to each other */
 .column {
