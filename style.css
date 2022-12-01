@@ -1,0 +1,123 @@
+
+
+.right{
+    float: right;
+    margin: 50px;
+    margin-right: 100px;
+    color: lightgray;
+}
+
+.hours_normal, .hours_holidays, .location, .contact{
+    
+    padding: 10px;
+    border: #5963b9;
+    border-style: solid;
+    margin: 10px;
+}
+.mission{
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    max-width: 80%;
+    color: lightgray;
+}
+body {
+    background: #5A5A5A;
+	background-size: cover;
+	font-size: 1.2em;
+	font-family: din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+.logo{
+    position: center;
+    height: 70px;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav {
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    height: 172px;
+    width: 50%;
+    font-size: x-large;
+	color: #080808;
+}
+a {
+    color: white;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.header {
+    height: 172px;
+    padding: 20px;
+    text-align: center;
+    background: #1D1D1D;
+    color: white;
+}
+.Big-Text {
+    text-align: center;
+    font-size: x-large;
+}
+.white-font {
+    color: white;
+}
+strong {
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 2px 2px 7px white;
+}
+
+p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+footer{
+	border: 1px solid black;
+	color: #837EB1;
+	background-color: #000;
+   
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  color: white;
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.st{
+    text-decoration: none;
+    text-shadow: none;
+}
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  .b_image{
+    max-width: 100%;
+    max-height: auto;
+  }
